@@ -1,0 +1,13 @@
+body{
+	/*background-image: url('img/yoshi.png');*/
+	background-repeat: no-repeat;
+	/*background-repeat: repeat-x;*/ /*repeat-y*/
+	background-attachment: fixed; /*scroll*/
+	/*background-position: center right;*/ /*top ; bottom ; left*/
+	background: gray url('img/yoshi.png') no-repeat fixed center bottom;
+}
+
+.conteudo{
+	background-color: white;
+	color: green;
+}

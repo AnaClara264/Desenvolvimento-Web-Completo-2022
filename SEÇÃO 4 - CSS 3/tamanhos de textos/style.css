@@ -1,0 +1,16 @@
+/*tamanho padrão = 16px */
+
+div{
+    font-size: 50px; /* TAMANHO DO TEXTO PADRÃO */
+}
+.px{
+    font-size: 20px; 
+}
+
+.porc{
+    font-size: 50%; /* x% do tamanho padrão */
+}
+
+.em{
+    font-size: 2em; /* n x conteiner pai (tamanho padrão) */
+}

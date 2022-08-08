@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>primeiro site</title>
+	</head>
+	<body>
+
+		<!-- FORMULÁRIOS -->
+		<h2>Formulários</h2>
+
+		<!-- login -->
+		<h3>Login</h3>
+		<form method="post" action="teste.html"> <!-- teste com php na pasta teste_web -->
+
+			Usuário:<br>
+			<input type="text" name="usuario"><br>
+
+			Senha:<br>
+			<input type="password" name="senha"><br>
+			<input type="submit" value="Entrar">
+
+		</form>
+		
+		<!-- cadastro -->
+		<h3>Cadastro</h3>
+		<form>
+
+			<b>Nome:</b><br>
+			<input type="text" name="nome"><br><br>
+
+			<b>Sexo:</b><br>
+			<input type="radio" name="sexo" value="M">masculino<br>
+			<input type="radio" name="sexo" value="F">feminino<br>
+			<input type="radio" name="sexo" value="NB">não binário<br><br>
+
+			<b>Grau de escolaridade concluído:</b><br>
+			<input type="checkbox" name="escolaridade">Alfabetização<br>
+			<input type="checkbox" name="escolaridade">Ensino fundamental I<br>	
+			<input type="checkbox" name="escolaridade">Ensino fundamental II<br>	
+			<input type="checkbox" name="escolaridade">Ensino médio<br>	
+			<input type="checkbox" name="escolaridade">Superior<br>
+			<input type="checkbox" name="escolaridade">Pós-graduação<br>
+			<input type="checkbox" name="escolaridade">Mestrado<br>	
+			<input type="checkbox" name="escolaridade">Doutorado<br><br>
+
+			<b>Estado:</b><br>
+			<select name="estado">
+				<option value="ce">CE</option>
+				<option value="sp">SP</option>
+				<option value="mg">MG</option>
+				<option value="rj">RJ</option>
+				<option value="pe">PE</option>
+			</select><br><br>
+
+			<b>Observações:</b><br>
+			<textarea></textarea><br>
+			<input type="submit" value="Cadastrar">
+
+		</form>
+
+		<hr>
+
+		<!-- CARACTERES ESPECIAIS -->
+		<h2>Caracteres Especiais</h2>
+		<a href="https://www.w3schools.com/html/html_entities.asp">ENTIDADES - W3schools</a><br>
+
+		&lt;p&gt; <!-- serve pra bosta nenhuma :) -->
+
+		<br>
+
+		Home &nbsp;&nbsp;&nbsp;&nbsp; Quem somos &nbsp;&nbsp;&nbsp;&nbsp; Contato
+
+	</body>
+</html>
